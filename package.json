@@ -1,11 +1,19 @@
 {
-  "name": "xlui",
+  "name": "xlcui1.0",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "lib/add-ui.common.js",
+  "description": "xulin UI",
+  "keywords": [],
+  "license": "public协议",
+  "repository": {},
+  "homepage": "组件库演示地址",
+  "publishConfig": {},
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name xlcui --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
